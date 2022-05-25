@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="icon" href="../../plantilla1.0/MOLI.png">
+	<title>REGISTRO</title>
+	<script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+	<link rel="stylesheet" href="css/materialize.css">
+	<link rel="stylesheet" href="css/loader.css">
+	<link rel="stylesheet" href="css/fontawesome.min.css">
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/owl.theme.default.min.css">
+	<link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+	<!-- preloader -->
+	<div class="loader-wrapper">
+		<div class="loader-cube"></div>
+	</div>
+	<!-- end preloader -->
+
+	<!-- navbar -->
+	<div class="navbar">
+		<div class="container">
+			<div class="row">
+				<div class="col s6">
+					<div class="content-left">
+						<a href="index.html">
+							<h1>
+								<span class="color-indigo1">M</span><span class="color-indigo2">O</span><span class="color-indigo3">L</span><span class="color-indigo4">I</span><span class="color-indigo5">I</span>
+							</h1>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- end navbar -->
+
+	<!-- sidebar left -->
+	<div class="sidebar-panel">
+		<ul id="slide-out" class="collapsible side-nav">
+			<li class="list-top">
+				<!-- <div class="user-view">
+					<img class="responsive-img" src="images/testimonial1.png" alt="">
+					<h4>Marchel Agata</h4>
+					<span>New York</span>
+				</div> -->
+			</li>
+			<li>
+				<div class="collapsible-header">
+					<i class="fas fa-home"></i>Home<span><i class="fas fa-angle-right right"></i></span>
+				</div>
+				<div class="collapsible-body">
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="index2.html">Home v2</a></li>
+					</ul>
+				</div>
+			</li>
+			<li><a href="course.html"><i class="fas fa-graduation-cap"></i>Course</a></li>
+			<li><a href="event.html"><i class="fas fa-calendar-alt"></i>Event</a></li>
+			<li>
+				<div class="collapsible-header">
+					<i class="fas fa-clone"></i>Blog<span><i class="fas fa-angle-right right"></i></span>
+				</div>
+				<div class="collapsible-body">
+					<ul>
+						<li><a href="blog.html">Blog</a></li>
+						<li><a href="blog-single.html">Blog Single</a></li>
+					</ul>
+				</div>
+			</li>
+			<li> 
+				<div class="collapsible-body">
+					<ul>
+						<li><a href="about.html">About</a></li>
+						<li><a href="features.html">Features</a></li>
+						<li><a href="services.html">Services</a></li>
+						<li><a href="gallery.html">Gallery</a></li>
+						<li><a href="page-not-found.html">Page Not Found</a></li>
+						<li><a href="pricing-table.html">Pricing</a></li>
+					</ul>
+				</div>
+			</li>
+			<li><a href="contact.html"><i class="fas fa-envelope"></i>Contact</a></li>
+			<li><a href="login.html"><i class="fas fa-sign-in-alt"></i>Login</a></li>
+			<li><a href="register.html"><i class="fas fa-user-plus"></i>Register</a></li>
+		</ul>
+	</div>
+	<!-- end sidebar left -->
+
+	<!-- register -->
+	<div class="register segments-page">
+		<div class="container">
+			<div class="contact-title">
+				<h3>Registro</h3>
+			</div>
+			<div class="wrap-form">
+				<form action="php/logicainscripcion.php" method="post">
+					<input type="text" name="pnombre" placeholder="Primer Nombre" required>
+					<input type="text" name="snombre" placeholder="Segundo Nombre">
+					<input type="text" name="papellido" placeholder="Primer Apellido" required>
+					<input type="text" name="sapellido" placeholder="Segundo Apellido" required>
+					<input type="number" name="num" placeholder="Numero De Celular" required>
+					<input type="email" name="correo" placeholder="Correo Electronico" required>
+				    <input type="submit" class="button" value="Registarme"></input>
+				</form>
+			</div>
+			<div class="info">
+				<p>¿Ya tienes cuenta?<span><a href="login.html">Iniciar Sesión</a></span></p>
+			</div>
+		</div>
+	</div>
+	<!-- end register -->
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/materialize.min.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/main.js"></script>
+
+</body>
+</html>
